@@ -137,7 +137,7 @@ def handle_webhook():
     }
 
     if is_staff:
-        embed["color"] = embed["color"] = 0x9b59b6   # purple
+        embed["color"] = 0x9b59b6   # purple
 
     # Send to Discord
     try:
