@@ -72,7 +72,7 @@ def handle_webhook():
                                          "value": str(display_name),       "inline": True},
             {"name": "In Game Name",     "value": str(photon_nickname),    "inline": True},
             {"name": "PlayFab ID",       "value": str(play_fab_id),        "inline": True},
-            {"name": "Players in Lobby", "value": f"{player_count} / {max_players} \n <@1443807588864098316>", "inline": True},
+            {"name": "Players in Lobby", "value": f"{player_count} / {max_players}", "inline": True},
         ],
         "footer": {"text": "room logs made by unity.lolz"},
     }
